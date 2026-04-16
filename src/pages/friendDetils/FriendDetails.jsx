@@ -56,9 +56,9 @@ const FriendDetails = () => {
   return (
     <div className="w-full bg-[#F9FAFB] min-h-screen pt-6 md:pt-10 pb-10 md:pb-20">
       <ToastContainer />
-      <div className="container mx-auto max-w-[1100px] px-4">
+      <div className="container mx-auto max-w-275 px-4">
         <div className="flex flex-col lg:flex-row gap-6 md:gap-8">
-          <div className="w-full lg:w-[350px] flex flex-col gap-4">
+          <div className="w-full lg:w-85 flex flex-col gap-4">
             <div className="bg-white rounded-2xl p-6 md:p-8 border border-gray-100 shadow-sm flex flex-col items-center text-center">
               <img src={picture} alt={name} className="w-20 h-20 rounded-full mb-4 object-cover border-2 border-gray-50" />
               <h3 className="text-[20px] font-semibold text-[#1F2937]">{name}</h3>
@@ -76,7 +76,7 @@ const FriendDetails = () => {
             <div className="flex flex-col gap-3">
               <button className="btn bg-white border-gray-200 hover:bg-gray-50 normal-case justify-start gap-3 h-14 rounded-xl shadow-sm text-[#1F2937]">⏰ Snooze 2 Weeks</button>
               <button className="btn bg-white border-gray-200 hover:bg-gray-50 normal-case justify-start gap-3 h-14 rounded-xl shadow-sm text-[#1F2937]">📦 Archive</button>
-              <button className="btn bg-white border-gray-200 hover:bg-red-50 normal-case justify-start gap-3 h-14 rounded-xl shadow-sm text-[#FF4D4D] border-red-50">🗑️ Delete</button>
+              <button className="btn bg-white border-gray-200 hover:bg-red-50 normal-case justify-start gap-3 h-14 rounded-xl shadow-sm text-[#FF4D4D]">🗑️ Delete</button>
             </div>
           </div>
 
